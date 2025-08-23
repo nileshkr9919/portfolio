@@ -22,14 +22,6 @@ const experiences: Experience[] = [
       "Currently serving notice period until 14th August 2025.",
     ],
   },
-  {
-    company: "Airtel",
-    role: "Software Engineer",
-    period: "Joining on 14th August 2025",
-    responsibilities: [
-      "Will be joining Airtel’s NSO – Business Process Automation team. Responsibilities will be defined post onboarding.",
-    ],
-  },
 ];
 
 
