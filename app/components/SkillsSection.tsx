@@ -2,11 +2,52 @@
 import React from "react";
 
 const skills = {
-  Languages: ["TypeScript", "JavaScript", "Python", "Java"],
-  Frameworks: ["Next.js", "React", "Angular", "Node.js", "Express", "LoopBack 4", "Nest.js"],
-  Databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
-  "Tools/Other": ["Git", "Docker", "Camunda BPM", "AWS"],
+  Backend: [
+    "Node.js (NestJS, LoopBack 4, Express)",
+    "Microservices Architecture",
+    "Event-Driven Systems",
+    "Distributed Transactions & Fault Tolerance",
+  ],
+  Frontend: [
+    "Angular",
+    "React",
+    "Next.js",
+  ],
+  "Infra/DevOps": [
+    "Docker",
+    "Kubernetes",
+    "AWS (S3, Lambda, ECS, SQS, SNS)",
+    "Helm",
+    "CI/CD Pipelines (GitHub Actions, Jenkins)",
+  ],
+  Databases: [
+    "PostgreSQL",
+    "MongoDB",
+    "DynamoDB",
+    "Redis",
+  ],
+  "Architecture & Patterns": [
+    "Domain-Driven Design (DDD)",
+    "Event Sourcing",
+    "SAGA Pattern",
+    "Caching & Performance Optimization",
+    "System Design & Scalability",
+  ],
+  "AI & Automation": [
+    "LangChain",
+    "Crew AI",
+    "Camunda BPMN",
+    "bpmn.js",
+  ],
+  "Testing & Tools": [
+    "Jest",
+    "Mocha",
+    "Swagger / OpenAPI",
+    "Git",
+    "Postman",
+  ],
 };
+
 
 export default function SkillsSection() {
   return (

@@ -11,18 +11,28 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
+    company: "Airtel",
+    role: "Senior Manager — Developer (BPA)",
+    period: "Aug 2025 – Present",
+    responsibilities: [
+      "Leading backend development initiatives within Airtel’s Business Process Automation (BPA) division, driving scalable and reliable service architectures.",
+      "Owning high-impact modules from design to deployment, optimizing system efficiency, and ensuring robust performance.",
+      "Collaborating with cross-functional teams to deliver critical solutions across multiple Airtel verticals.",
+    ],
+  },
+  {
     company: "SourceFuse",
     role: "Software Engineer",
     period: "Jan 2022 – Aug 2025",
     responsibilities: [
-      "Worked on multiple production-grade architectures across backend, frontend, and cloud.",
-      "Mentored junior developers and regularly contributed to code reviews and design discussions.",
-      "Collaborated with cross-functional teams including QA, DevOps, and product to deliver end-to-end features.",
-      "Built internal tools and open-source libraries to streamline development workflows.",
-      "Currently serving notice period until 14th August 2025.",
+      "Designed and developed production-grade applications across backend, frontend, and cloud environments using Node.js, Angular, and AWS.",
+      "Mentored junior engineers, conducted design reviews, and improved overall code quality and maintainability across teams.",
+      "Collaborated closely with QA, DevOps, and Product teams to deliver secure and scalable end-to-end solutions.",
+      "Developed internal tools and open-source libraries that streamlined workflows and improved deployment velocity.",
     ],
   },
 ];
+
 
 
 export default function ExperienceSection() {
