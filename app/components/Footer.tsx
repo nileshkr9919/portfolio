@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 const socialLinks = [
-  { name: 'GitHub', href: 'https://github.com/nileshkumar-sf', icon: FaGithub },
   { name: 'GitHub', href: 'https://github.com/nileshkr9919', icon: FaGithub },
+  { name: 'GitHub', href: 'https://github.com/nileshkumar-sf', icon: FaGithub },
   { name: 'LinkedIn', href: 'https://linkedin.com/in/nilesh-kr', icon: FaLinkedin },
   { name: 'LeetCode', href: 'https://leetcode.com/nileshkr9919', icon: SiLeetcode },
   { name: 'HackerRank', href: 'https://www.hackerrank.com/nileshkr9919', icon: FaHackerrank },
